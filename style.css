@@ -58,3 +58,22 @@ header{
     width: 300px;
 }
 
+/* .......instagram style........  */
+.instagram-container{
+    padding: 0 100px;
+    text-align: center;
+}
+.instagram-container h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+.instagram-images{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.instagram-images img{
+    width: 250px;
+}
