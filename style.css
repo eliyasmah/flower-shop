@@ -1,4 +1,8 @@
 /* ......common style....... */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
 .primary-btn{
     color: #FFF;
     font-size: 20px;
@@ -29,7 +33,7 @@ header{
 }
 .header-container h1{
     color: #272727;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 800;
 }
 
@@ -93,4 +97,21 @@ header{
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* .......footer container style.........*/
+.footer-container{
+    text-align: center;
+    padding: 100px 400px;
+    background-color: black;
+    color: #FFF;
+}
+.footer-container >h3>span{
+    color: #E55473;
+}
+.footer-container p{
+    color: #FFF;
+}
+.copyright{
+    color: rgba(39, 39, 39, 0.60);
 }
