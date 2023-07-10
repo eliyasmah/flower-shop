@@ -1,0 +1,33 @@
+/* ......common style....... */
+.primary-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 20px;
+    border: none;
+}
+/* ......header style...... */
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 50px 140px 0px 140px;
+}
+.header-container h1{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+}
+.header-container p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.header-image img{
+    width: 450px;
+}
+
