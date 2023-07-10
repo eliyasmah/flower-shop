@@ -8,6 +8,12 @@
     padding: 15px 20px;
     border: none;
 }
+ p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* ......header style...... */
 header{
     background-color: rgba(229, 84, 115, 0.10);
@@ -21,13 +27,34 @@ header{
     font-size: 70px;
     font-weight: 800;
 }
-.header-container p{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
+
 .header-image img{
     width: 450px;
+}
+
+/* ......main section style...... */
+
+/* .....hot-deal style...... */
+.hot-deal{
+    margin: 100px 0;
+    background-color:rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 150px;
+}
+.hot-deal-info{
+    padding: 50px;
+    text-align: center;
+}
+.hot-deal-info h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-deal-info h3 span{
+    color: #E55473;
+}
+.hot-deal img{
+    width: 300px;
 }
 
