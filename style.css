@@ -8,6 +8,11 @@
     padding: 15px 20px;
     border: none;
 }
+h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
  p{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -47,10 +52,6 @@ header{
     padding: 50px;
     text-align: center;
 }
-.hot-deal-info h3{
-    font-size: 40px;
-    font-weight: 800;
-}
 .hot-deal-info h3 span{
     color: #E55473;
 }
@@ -63,11 +64,6 @@ header{
     padding: 0 100px;
     text-align: center;
 }
-.instagram-container h3{
-    font-size: 40px;
-    font-weight: 800;
-    margin: 0;
-}
 .instagram-images{
     display: flex;
     gap: 15px;
@@ -76,4 +72,25 @@ header{
 }
 .instagram-images img{
     width: 250px;
+}
+
+/* ........latest-deals.......... */
+.latest-deals{
+    text-align: center;
+    background-image: url("images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px;
+    padding: 80px;
+}
+.new-clint-email{
+    padding: 20px;
+    margin: 0 15px;
+    width: 500px;
+    border: none;
+    border-radius: 8px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
 }
