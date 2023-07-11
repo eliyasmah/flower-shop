@@ -48,6 +48,11 @@ header{
     padding:100px 150px 50px 150px;
     text-align: center;
 }
+.featured-flowers-container p{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
 .featured-flowers{
     display: flex;
     gap: 24px;
@@ -111,6 +116,11 @@ header{
 .instagram-container{
     padding: 0 100px;
     text-align: center;
+}
+.instagram-container p{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
 }
 .instagram-images{
     display: flex;
