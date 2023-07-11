@@ -143,6 +143,35 @@ header{
     font-weight: 400;
 }
 
+/* .......customers style...... */
+.customer-container{
+    padding: 50px 150px;
+}
+.customer-container h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.customers{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.customer{
+    background-color: rgba(229, 84, 115, 0.10);
+    border-radius: 5px;
+    box-shadow:5px 5px 10px #c4b8b8;
+}
+.customer img{
+    width: 250px;
+    border-radius: 5px;
+}
+.customer-info{
+    padding:30px 10px;
+}
+.customer-info h5,h6{
+    margin: 0;
+    padding: 2px 0;
+}
 /* .......footer container style.........*/
 .footer-container{
     text-align: center;
